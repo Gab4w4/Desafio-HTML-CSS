@@ -84,6 +84,11 @@
     .logoMarca{
         width: 120px;
     }
+
+    form label {
+        width: 100%;
+        text-align: left;
+    }
 }
 
 @media (max-width : 520px){

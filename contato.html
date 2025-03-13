@@ -26,16 +26,22 @@
 
             <form action="./index.html" method="get">
                 <h2>Sobre você</h2>
+                <label>Nome:</label>
                 <input type="text" placeholder="NOME*" required>
+                <label>Sobrenome:</label>
                 <input type="text" placeholder="SOBRENOME*" required>
+                <label>E-mail:</label>
                 <input type="text" placeholder="E-MAIL*" required>
+                <label>Tel.:</label>
                 <input type="text" placeholder="TELEFONE*" required>
+                <label>Tipo de contato:</label>
                 <select name="contato" id="contato" required>
                     <option value="" disabled selected>TIPO DE CONTATO</option>
                     <option value="1">Elogio</option>
                     <option value="2">Reclamação</option>
                     <option value="3">Solicitação</option>
                 </select>
+                <label>Mensagem:</label>
                 <textarea class="mensagem-contato" placeholder="MENSAGEM*" required></textarea>
                 <button class="button-contato">Enviar</button>
             </form>
