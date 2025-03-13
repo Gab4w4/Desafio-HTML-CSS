@@ -12,6 +12,10 @@ main{
     height: auto;
 }
 
+.logoMarca {
+    margin: 20px;
+}
+
 .tabela-container{
     max-width: 1500px;
     margin: auto;

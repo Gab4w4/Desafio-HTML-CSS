@@ -27,8 +27,6 @@ header{
     justify-content: space-between;
     left: 0;
     top: 0;
-    margin-top: 10px;
-    margin-bottom: 10px;
     background: white;
     height: 100px;
     width: 100%;
@@ -41,7 +39,7 @@ header{
     width: 150px;
     height: auto;
     padding-left: 10px;
-    margin-bottom: 5px;
+    margin: 15px;
 }
 
 .cabecalho {
@@ -130,5 +128,9 @@ footer h2 {
     height: auto;
 }
 
+.logo_rodape {
+    position: absolute;
+    right: 10px;
+}
 
     
