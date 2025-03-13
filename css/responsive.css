@@ -51,14 +51,23 @@
         margin-top: 10px;
     }
 
+    .descricao-home, main h4 {
+        font-size: 16px;
+    }
+
 }
 
 @media (max-width : 800px){
     .cabecalho a {
         font-size: 18px;
     }
+
     main h4 {
         font-size: 16px;
+    }
+
+    .descricao-home, main h4 {
+        font-size: 14px;
     }
 }
 
@@ -87,7 +96,7 @@
         font-size: 16px;
     }
 
-    main h4 {
+    main h4, .descricao-home {
         font-size: 12px;
     }
 

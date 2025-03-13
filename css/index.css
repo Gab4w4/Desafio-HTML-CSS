@@ -12,6 +12,13 @@ main h4 {
     text-align: center;
 }
 
+.descricao-home {
+    width: 90%;
+    font-size: 19px;
+    text-align: center;
+    text-align: justify;
+}
+
 main a {
     text-decoration: none;
 }
