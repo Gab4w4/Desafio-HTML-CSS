@@ -75,7 +75,7 @@ footer {
     padding: 10px;
     background: #1b357e;
     left: 0;
-    z-index: -1000;
+    z-index: 10;
 }
 
 .copyright {
