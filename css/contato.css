@@ -41,6 +41,7 @@ form select {
 }
 
 .mensagem-contato {
+    resize: none;
     width: 340px;
     height: 150px;
     border: 1px solid rgba(128, 128, 128, 0.37);
